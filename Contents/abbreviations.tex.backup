@@ -1,0 +1,55 @@
+% abbreviations:
+\DeclareAcronym{cnn}{
+  short = \textbf{CNN} ,
+  long  = \textbf{C}onvolutional \textbf{N}eural \textbf{N}etwork,
+  class = abbrev}
+
+  \DeclareAcronym{fcnn}{
+  short = \textbf{FCNN} ,
+  long  = \textbf{F}ully \textbf{C}onvolutional \textbf{N}eural \textbf{N}etwork,
+  class = abbrev}
+  
+\DeclareAcronym{rnn}{
+  short = \textbf{RNN} ,
+  long  = \textbf{R}ecurrent \textbf{N}eural \textbf{N}etwork,
+  class = abbrev}
+  
+\DeclareAcronym{nn}{
+  short = \textbf{NN} ,
+  long  = \textbf{N}eural \textbf{N}etwork,
+  class = abbrev}
+
+\DeclareAcronym{crf}{
+  short = \textbf{CRF},
+  long  = \textbf{C}onditional \textbf{R}andom \textbf{F}ield,
+  class = abbrev}  
+
+\DeclareAcronym{crf-rnn}{
+  short = \textbf{CRF-RNN},
+  long  = \textbf{C}onditional \textbf{R}andom \textbf{F}ield as \textbf{R}ecurrent \textbf{N}eural \textbf{N}etwork,
+  class = abbrev}
+  
+\DeclareAcronym{miou}{
+  short = \textbf{mIoU},
+  long  = \textbf{M}ean \textbf{I}ntersection over \textbf{U}nion,
+  class = abbrev}   
+  
+\DeclareAcronym{crf-rnn}{
+  short = \textbf{ΤΥΣΠ-ΕΝΔ},
+  long  = \textgreek{\textbf{Τ}υχαίο \textbf{Υ}πό \textbf{Σ}υνθήκη \textbf{Π}εδίο ως \textbf{Ε}επαναλαμβανόμενο \textbf{Ν}ευρωνικό \textbf{Δ}ίκτυο},
+  class = abbrev}  
+  
+\DeclareAcronym{cnn-gr}{
+  short = \textgreek{\textbf{ΣΝΔ}},
+  long  = \textgreek{\textbf{Σ}υνελικτικό \textbf{Ν}ευρωνικό \textbf{Δ}ίκτυο},
+  class = abbrev}
+  
+\DeclareAcronym{fcnn-gr}{
+  short = \textgreek{\textbf{ΠΣΝΔ}} ,
+  long  = \textgreek{\textbf{Π}λήρως \textbf{Σ}υνελικτικό \textbf{Ν}ευρωνικό \textbf{Δ}ίκτυο},
+  class = abbrev}
+  
+\DeclareAcronym{rnn-gr}{
+  short = \textgreek{\textbf{ENN}},
+  long  = \textgreek{\textbf{Ε}παναλαμβανόμενο \textbf{Ν}ευρωνικό \textbf{Δ}ίκτυο},
+  class = abbrev}

@@ -1,0 +1,90 @@
+\documentclass[a4paper, 12pt, openany]{book}
+
+\input{settings/packages}
+\usepackage{algorithm, algcompatible}
+\usepackage{empheq, nccmath}
+\usepackage[numbers]{natbib} 	% needed for cite and abbrvnat bibliography style
+\usepackage{setspace}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+\usepackage{colortbl}
+\usepackage{acro}
+\renewcommand{\thealgorithm}{}
+\renewcommand{\arraystretch}{1.7}
+\usepackage{subfig}
+\acsetup{first-style=short,list-style=longtable, sort=false}
+\algnewcommand\RETURN{\item[\textbf{return}]}
+\setcounter{MaxMatrixCols}{17}
+
+\input{settings/page}
+\graphicspath{{Images/}}
+\DeclareMathOperator*{\argmax}{argmax}
+%\makeglossaries
+
+\input{settings/macros}
+\input{Contents/abbreviations}
+
+\bibliographystyle{abbrvnat}
+
+% Main document Below
+\begin{document}
+\acuseall
+
+\pagestyle{empty}
+\input{Contents/title_page} 
+\input{abstractGR}
+%\input{abstractEn}
+
+\pagestyle{plain}
+%\setotherlanguage{greek}
+%\selectlanguage{greek}
+\listoffigures
+\listoftables
+\tableofcontents
+\raggedbottom
+
+
+\pagebreak
+%\printglossary[type=\acronymtype,title=Abbreviations]
+% Insert dedication
+%\vspace*{10cm}
+%\centering{\large{\emph{\textgreek{ Στην Οικογενειά μου...} }}}
+%\vfill
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+ \large{\emph{\textgreek{Στην Οικογενειά μου...}}} 
+\vspace*{\fill}
+\end{center}
+
+\pagebreak
+\raggedright
+%%%%%%%% Abbrevations %%%%%
+%\cleardoublepage
+\printacronyms[include-classes=abbrev, name=\huge Abbreviations]
+
+%\pagestyle{plain}
+\input{chapters/introduction}
+\input{chapters/neurals}
+\input{chapters/modelSelection}
+\input{chapters/post_process}
+%\chapter{}
+\input{chapters/experiments}
+\input{chapters/conclusion}
+
+
+\input{chapters/appendix}
+\addtocontents{toc}{\protect\contentsline{chapter}{\protect\numberline{}\textgreek{Παράρτημα}}{}{chapter*.\thepage}}
+
+    %\newpage
+    %\chapter{Introduction}
+
+    \medskip
+    %\citet*{*}
+    %\cite{latexcompanion}
+    \bibliography{thesis}
+
+    %\printindex
+
+\end{document}

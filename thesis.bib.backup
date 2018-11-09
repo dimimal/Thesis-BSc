@@ -1,0 +1,838 @@
+@INPROCEEDINGS{7538344,
+author={P. A. Jadhav and P. N. Chatur and K. P. Wagh},
+booktitle={2016 2nd International Conference on Advances in Electrical, Electronics, Information, Communication and Bio-Informatics (AEEICB)},
+title={Integrating performance of web search engine with Machine Learning approach},
+year={2016},
+volume={},
+number={},
+pages={519-524},
+doi={10.1109/AEEICB.2016.7538344},
+ISSN={},
+month={Feb}}
+
+@misc{rmsProp,
+  title={{Lecture 6.5---RmsProp: Divide the gradient by a running average of its recent magnitude}},
+  author={Tieleman, T. and Hinton, G.},
+  howpublished={COURSERA: Neural Networks for Machine Learning},
+  year={2012}
+}
+
+
+@article{adam,
+  author    = {Diederik P. Kingma and
+               Jimmy Ba},
+  title     = {Adam: {A} Method for Stochastic Optimization},
+  journal   = {CoRR},
+  volume    = {abs/1412.6980},
+  year      = {2014}
+}
+
+
+
+@inproceedings{sgd,
+ author = {Zhang, Tong},
+ title = {Solving Large Scale Linear Prediction Problems Using Stochastic Gradient Descent Algorithms},
+ booktitle = {Proceedings of the Twenty-first International Conference on Machine Learning},
+ series = {ICML '04},
+ year = {2004},
+ isbn = {1-58113-838-5},
+ location = {Banff, Alberta, Canada},
+ pages = {116--},
+ url = {http://doi.acm.org/10.1145/1015330.1015332},
+ doi = {10.1145/1015330.1015332},
+ acmid = {1015332},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+
+@book{act_funcs,
+  author    = {Alex Graves},
+  title     = {Supervised Sequence Labelling with Recurrent Neural Networks},
+  series    = {Studies in Computational Intelligence},
+  volume    = {385},
+  publisher = {Springer},
+  year      = {2012},
+  url       = {https://doi.org/10.1007/978-3-642-24797-2},
+  doi       = {10.1007/978-3-642-24797-2},
+  isbn      = {978-3-642-24796-5},
+  timestamp = {Tue, 16 May 2017 14:24:36 +0200},
+  biburl    = {https://dblp.org/rec/bib/series/sci/2012-385},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{conv_arithmetic,
+  added-at = {2016-04-02T00:00:00.000+0200},
+  author = {Dumoulin, Vincent and Visin, Francesco},
+  ee = {http://arxiv.org/abs/1603.07285},
+  journal = {CoRR},
+  keywords = {dblp},
+  timestamp = {2016-04-05T11:39:38.000+0200},
+  title = {A guide to convolution arithmetic for deep learning.},
+  url = {http://dblp.uni-trier.de/db/journals/corr/corr1603.html#DumoulinV16},
+  volume = {abs/1603.07285},
+  year = 2016
+}
+
+
+@electronic{szeliski2011computer,
+  added-at = {2012-10-25T12:42:36.000+0200},
+  address = {London; New York},
+  author = {Szeliski, Richard},
+  biburl = {https://www.bibsonomy.org/bibtex/2f58160db2b03916db911241ed09e2685/daill},
+  description = {Computer Vision},
+  interhash = {52bc88936329fd66b2af28d393532e40},
+  intrahash = {f58160db2b03916db911241ed09e2685},
+  isbn = {9781848829343 1848829345 9781848829350 1848829353},
+  keywords = {computer vision},
+  publisher = {Springer},
+  refid = {682910466},
+  timestamp = {2012-10-25T12:42:36.000+0200},
+  title = {Computer vision algorithms and applications},
+  year = {2011}
+}
+
+
+
+@article{machine_translation,
+  author    = {Yonghui Wu and
+               Mike Schuster and
+               Zhifeng Chen and
+               Quoc V. Le and
+               Mohammad Norouzi and
+               Wolfgang Macherey and
+               Maxim Krikun and
+               Yuan Cao and
+               Qin Gao and
+               Klaus Macherey and
+               Jeff Klingner and
+               Apurva Shah and
+               Melvin Johnson and
+               Xiaobing Liu and
+               Lukasz Kaiser and
+               Stephan Gouws and
+               Yoshikiyo Kato and
+               Taku Kudo and
+               Hideto Kazawa and
+               Keith Stevens and
+               George Kurian and
+               Nishant Patil and
+               Wei Wang and
+               Cliff Young and
+               Jason Smith and
+               Jason Riesa and
+               Alex Rudnick and
+               Oriol Vinyals and
+               Greg Corrado and
+               Macduff Hughes and
+               Jeffrey Dean},
+  title     = {Google's Neural Machine Translation System: Bridging the Gap between
+               Human and Machine Translation},
+  journal   = {CoRR},
+  volume    = {abs/1609.08144},
+  year      = {2016}
+}
+@INPROCEEDINGS{partition_func,
+    author = {John Lafferty},
+    title = {Conditional random fields: Probabilistic models for segmenting and labeling sequence data},
+    booktitle = {},
+    year = {2001},
+    pages = {282--289},
+    publisher = {Morgan Kaufmann}
+}
+
+@Book{brain,
+  Title                    = {Brain and Visual Perception},
+  Annote                   = {SIGNATUR = 794.031},
+  Author                   = {M. Hubel and T. N. Wiesel},
+  Keywords                 = {VISUAL PERCEPTION AND BIOLOGICAL VISION},
+  Publisher                = {Oxford Univeristy Press},
+  Year                     = {2005},
+
+  Place                    = {Favoritenstrasse 9/4th Floor/1863}
+}
+
+@article{medical_pred,
+  author    = {Zhengping Che and
+               Yu Cheng and
+               Shuangfei Zhai and
+               Zhaonan Sun and
+               Yan Liu},
+  title     = {Boosting Deep Learning Risk Prediction with Generative Adversarial
+               Networks for Electronic Health Records},
+  journal   = {CoRR},
+  volume    = {abs/1709.01648},
+  year      = {2017}
+}
+
+
+
+@INPROCEEDINGS{RefineNet,
+author={G. Lin and A. Milan and C. Shen and I. Reid},
+booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+title={RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation},
+year={2017},
+volume={},
+number={},
+pages={5168-5177},
+doi={10.1109/CVPR.2017.549},
+ISSN={1063-6919},
+month={July}}
+
+@INPROCEEDINGS{pspnet,
+author={H. Zhao and J. Shi and X. Qi and X. Wang and J. Jia},
+booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+title={Pyramid Scene Parsing Network},
+year={2017},
+volume={},
+number={},
+pages={6230-6239},
+keywords={feature extraction;image classification;image representation;image segmentation;learning (artificial intelligence);object detection;ImageNet scene parsing challenge;PSPNet;global context information;global prior representation;pyramid pooling module;pyramid scene parsing network;scene parsing task;unrestricted open vocabulary;Automobiles;Convolution;Feature extraction;Image segmentation;Neural networks;Semantics},
+doi={10.1109/CVPR.2017.660},
+ISSN={1063-6919},
+month={July}
+}
+
+% to cite the sofware library
+@misc{opencv_lib,
+  title={Open Source Computer Vision Library},
+  author={Itseez},
+  year={2015},
+  howpublished = {\url{https://github.com/itseez/opencv}}
+}
+
+% to cite the manual
+@manual{opencv_man,
+  title = {The OpenCV Reference Manual},
+  organization = {Itseez},
+  edition = {2.4.9.0},
+  month = {April},
+  year = {2014},
+  notes = {See \url{http://opencv.org/}}
+  }
+
+@inproceedings{DBLP:conf/ijcai/ZhangTLLY17,
+  author    = {Rui Zhang and
+               Sheng Tang and
+               Min Lin and
+               Jintao Li and
+               Shuicheng Yan},
+  title     = {Global-residual and Local-boundary Refinement Networks for Rectifying
+               Scene Parsing Predictions},
+  booktitle = {{IJCAI}},
+  pages     = {3427--3433},
+  publisher = {ijcai.org},
+  year      = {2017}
+}
+
+@article{video_scene_parsing,
+  author    = {Xiaojie Jin and
+               Xin Li and
+               Huaxin Xiao and
+               Xiaohui Shen and
+               Zhe Lin and
+               Jimei Yang and
+               Yunpeng Chen and
+               Jian Dong and
+               Luoqi Liu and
+               Zequn Jie and
+               Jiashi Feng and
+               Shuicheng Yan},
+  title     = {Video Scene Parsing with Predictive Feature Learning},
+  journal   = {CoRR},
+  volume    = {abs/1612.00119},
+  year      = {2016},
+  archivePrefix = {arXiv},
+  eprint    = {1612.00119},
+  timestamp = {Mon, 17 Jul 2017 07:41:49 +0200},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+
+
+@article{DBLP:journals/corr/WuSH16e,
+  author    = {Zifeng Wu and
+               Chunhua Shen and
+               Anton van den Hengel},
+  title     = {Wider or Deeper: Revisiting the ResNet Model for Visual Recognition},
+  journal   = {CoRR},
+  volume    = {abs/1611.10080},
+  year      = {2016}
+}
+
+
+@misc{cnnprimer,
+  author = {Joseph Redmon},
+  title = {cnn-primer},
+  year = {2017},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/pjreddie/cnn-primer/tree/master/1}}
+}
+
+
+@article{duc_hdc,
+  author    = {Panqu Wang and
+               Pengfei Chen and
+               Ye Yuan and
+               Ding Liu and
+               Zehua Huang and
+               Xiaodi Hou and
+               Garrison W. Cottrell},
+  title     = {Understanding Convolution for Semantic Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/1702.08502},
+  year      = {2017}
+}
+
+
+
+@inproceedings{adapNet,
+  author    = {Abhinav Valada and
+               Johan Vertens and
+               Ankit Dhall and
+               Wolfram Burgard},
+  title     = {AdapNet: Adaptive semantic segmentation in adverse environmental conditions},
+  booktitle = {{ICRA}},
+  pages     = {4644--4651},
+  publisher = {{IEEE}},
+  year      = {2017}
+}
+
+
+
+@inproceedings{self_norm,
+  author    = {G{\"{u}}nter Klambauer and
+               Thomas Unterthiner and
+               Andreas Mayr and
+               Sepp Hochreiter},
+  title     = {Self-Normalizing Neural Networks},
+  booktitle = {{NIPS}},
+  pages     = {972--981},
+  year      = {2017}
+}
+
+
+@inproceedings{batch_norm,
+  author    = {Sergey Ioffe and
+               Christian Szegedy},
+  title     = {Batch Normalization: Accelerating Deep Network Training by Reducing
+               Internal Covariate Shift},
+  booktitle = {{ICML}},
+  series    = {{JMLR} Workshop and Conference Proceedings},
+  volume    = {37},
+  pages     = {448--456},
+  publisher = {JMLR.org},
+  year      = {2015}
+}
+
+
+
+@article{DBLP:journals/corr/abs-1207-0580,
+  author    = {Geoffrey E. Hinton and
+               Nitish Srivastava and
+               Alex Krizhevsky and
+               Ilya Sutskever and
+               Ruslan Salakhutdinov},
+  title     = {Improving neural networks by preventing co-adaptation of feature detectors},
+  journal   = {CoRR},
+  volume    = {abs/1207.0580},
+  year      = {2012}
+}
+
+
+
+@article{DBLP:journals/corr/XuWCL15,
+  author    = {Bing Xu and
+               Naiyan Wang and
+               Tianqi Chen and
+               Mu Li},
+  title     = {Empirical Evaluation of Rectified Activations in Convolutional Network},
+  journal   = {CoRR},
+  volume    = {abs/1505.00853},
+  year      = {2015}
+}
+
+
+
+@article{DBLP:journals/corr/abs-1211-1768,
+  author    = {Olivier Rukundo and
+               Hanqiang Cao},
+  title     = {Nearest Neighbor Value Interpolation},
+  journal   = {CoRR},
+  volume    = {abs/1211.1768},
+  year      = {2012}
+}
+
+@misc{tensorflow_bib,
+title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+note={Software available from tensorflow.org},
+author={
+    Mart\'{\i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dan~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+  year={2015}
+}
+
+@misc{keras_bib,
+  title={Keras},
+  author={Chollet, Fran\c{c}ois and others},
+  year={2015},
+  publisher={GitHub},
+  }
+
+@misc{wiki_interpolation,
+title = {Biliner Interpolation},
+url={https://en.wikipedia.org/wiki/Bilinear_interpolation}
+}
+
+@misc{selu_page,
+title = {SELU Make FNNs Great Again (SNN)},
+author = {},
+year = {},
+url={https://towardsdatascience.com/selu-make-fnns-great-again-snn-8d61526802a9}}
+
+@misc{coursera_nn,
+  title={{Lecture 6.1---Overview of mini-batch gradient descent}},
+  author={Tieleman, T. and Hinton, G.},
+  howpublished={COURSERA: Neural Networks for Machine Learning},
+  year={2012}
+}
+  
+@article{pyqt_doc,
+  author = {PyQT},
+  keywords = {development gui nocache prio:2 programming pyqt python qt richterm_ma},
+  timestamp = {2012-02-23T12:50:15.000+0100},
+  title = {PyQt Reference Guide},
+  year = {2012}
+  }
+
+
+
+@article{sklearn_bib,
+  author    = {Lars Buitinck and
+               Gilles Louppe and
+               Mathieu Blondel and
+               Fabian Pedregosa and
+               Andreas Mueller and
+               Olivier Grisel and
+               Vlad Niculae and
+               Peter Prettenhofer and
+               Alexandre Gramfort and
+               Jaques Grobler and
+               Robert Layton and
+               Jake VanderPlas and
+               Arnaud Joly and
+               Brian Holt and
+               Ga{\"{e}}l Varoquaux},
+  title     = {{API} design for machine learning software: experiences from the scikit-learn
+               project},
+  journal   = {CoRR},
+  volume    = {abs/1309.0238},
+  year      = {2013}
+}
+
+@misc{backprop_notes,
+  author        = {Peter Sadowski},
+  title         = {Notes on backpropagation},
+  Institution   = {University of California Irvine},
+  year          = {2016},
+  url      = {https://www.ics.uci.edu/~pjsadows/notes.pdf}
+}
+
+@article{deeplab_2,
+  author    = {Liang{-}Chieh Chen and
+               George Papandreou and
+               Florian Schroff and
+               Hartwig Adam},
+  title     = {Rethinking Atrous Convolution for Semantic Image Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/1706.05587},
+  year      = {2017}
+}
+
+
+@article{pooling,
+  added-at = {2008-09-16T23:39:07.000+0200},
+  author = {LeCun, Y. and Boser, B. and Denker, J. S. and Henderson, D. and Howard, R. E. and Hubbard, W. and Jackel, L. D.},
+  biburl = {https://www.bibsonomy.org/bibtex/296c98d6adbcfbbea71385179ed056128/brian.mingus},
+  description = {CCNLab BibTeX},
+  interhash = {f532aea0ac3d409fbcae2c9ce8d5d1a2},
+  intrahash = {96c98d6adbcfbbea71385179ed056128},
+  journal = {Neural Computation},
+  keywords = {nnets},
+  pages = {541-551},
+  timestamp = {2008-09-16T23:40:31.000+0200},
+  title = {Backpropagation Applied to Handwritten Zip Code Recognition},
+  volume = 1,
+  year = 1989
+}
+
+
+
+@article{Home3d,
+  author    = {Simon Brodeur and
+               Ethan Perez and
+               Ankesh Anand and
+               Florian Golemo and
+               Luca Celotti and
+               Florian Strub and
+               Jean Rouat and
+               Hugo Larochelle and
+               Aaron C. Courville},
+  title     = {HoME: a Household Multimodal Environment},
+  journal   = {CoRR},
+  volume    = {abs/1711.11017},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1711.11017},
+  archivePrefix = {arXiv},
+  eprint    = {1711.11017},
+  timestamp = {Mon, 04 Dec 2017 18:34:59 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1711-11017},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{deepNAT,
+  author    = {Christian Wachinger and
+               Martin Reuter and
+               Tassilo Klein},
+  title     = {DeepNAT: Deep Convolutional Neural Network for Segmenting Neuroanatomy},
+  journal   = {CoRR},
+  volume    = {abs/1702.08192},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1702.08192},
+  archivePrefix = {arXiv},
+  eprint    = {1702.08192},
+  timestamp = {Wed, 07 Jun 2017 14:42:47 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/Wachinger0K17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{wiki:median,
+   author = {Anonymous},
+   title = {Median filter. Wikipedia},
+   year = {2007},
+   url = {https://en.wikipedia.org/wiki/Median_filter},
+   note = {Accessed 22-May-2018}
+ }
+
+@article{DBLP:journals/corr/KingmaB14,
+  author    = {Diederik P. Kingma and
+               Jimmy Ba},
+  title     = {Adam: {A} Method for Stochastic Optimization},
+  journal   = {CoRR},
+  volume    = {abs/1412.6980},
+  year      = {2014}
+}
+
+@inproceedings{LeCun:1998:EB:645754.668382,
+ author = {LeCun, Yann and Bottou, L{\'e}on and Orr, Genevieve B. and M\"{u}ller, Klaus-Robert},
+ title = {Efficient BackProp},
+ booktitle = {Neural Networks: Tricks of the Trade, This Book is an Outgrowth of a 1996 NIPS Workshop},
+ year = {1998},
+ isbn = {3-540-65311-2},
+ pages = {9--50},
+ numpages = {42},
+ 
+ acmid = {668382},
+ publisher = {Springer-Verlag},
+ address = {London, UK, UK}
+} 
+
+
+
+@article{DBLP:journals/corr/Ruder16,
+  author    = {Sebastian Ruder},
+  title     = {An overview of gradient descent optimization algorithms},
+  journal   = {CoRR},
+  volume    = {abs/1609.04747},
+  year      = {2016}
+}
+
+@inproceedings{deconv_net,
+ author = {Noh, Hyeonwoo and Hong, Seunghoon and Han, Bohyung},
+ title = {Learning Deconvolution Network for Semantic Segmentation},
+ booktitle = {Proceedings of the 2015 IEEE International Conference on Computer Vision (ICCV)},
+ series = {ICCV '15},
+ year = {2015},
+ isbn = {978-1-4673-8391-2},
+ pages = {1520--1528},
+ numpages = {9},
+ doi = {10.1109/ICCV.2015.178},
+ acmid = {2919658},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA}
+} 
+
+
+
+@Book{brain_neuron,
+  Title                    = {Pattern Classification (2nd Ed)},
+  Annote                   = {SIGNATUR = 785.172},
+  Author                   = {Richard O. Duda and Peter E. Hart and David G. Stork},
+  Keywords                 = {PATTERN RECOGNITION},
+  Publisher                = {Wiley},
+  Year                     = {2001},
+
+  Place                    = {Favoritenstrasse 9/4th Floor/1863}
+}
+
+
+@article{DBLP:journals/corr/EigenF14,
+  author    = {David Eigen and
+               Rob Fergus},
+  title     = {Predicting Depth, Surface Normals and Semantic Labels with a Common
+               Multi-Scale Convolutional Architecture},
+  journal   = {CoRR},
+  volume    = {abs/1411.4734},
+  year      = {2014}
+}
+
+@article{deeplab_1,
+  author    = {Liang{-}Chieh Chen and
+               George Papandreou and
+               Iasonas Kokkinos and
+               Kevin Murphy and
+               Alan L. Yuille},
+  title     = {DeepLab: Semantic Image Segmentation with Deep Convolutional Nets,
+               Atrous Convolution, and Fully Connected CRFs},
+  journal   = {CoRR},
+  volume    = {abs/1606.00915},
+  year      = {2016}
+}
+
+
+
+@article{yolo,
+  author    = {Joseph Redmon and
+               Santosh Kumar Divvala and
+               Ross B. Girshick and
+               Ali Farhadi},
+  title     = {You Only Look Once: Unified, Real-Time Object Detection},
+  journal   = {CoRR},
+  volume    = {abs/1506.02640},
+  year      = {2015}
+}
+
+
+
+@article{Cityscapes,
+  author    = {Marius Cordts and
+               Mohamed Omran and
+               Sebastian Ramos and
+               Timo Rehfeld and
+               Markus Enzweiler and
+               Rodrigo Benenson and
+               Uwe Franke and
+               Stefan Roth and
+               Bernt Schiele},
+  title     = {The Cityscapes Dataset for Semantic Urban Scene Understanding},
+  journal   = {CoRR},
+  volume    = {abs/1604.01685},
+  year      = {2016}
+}
+
+
+
+@article{fcnn_1,
+  author    = {Evan Shelhamer and
+               Jonathan Long and
+               Trevor Darrell},
+  title     = {Fully Convolutional Networks for Semantic Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/1605.06211},
+  year      = {2016}
+}
+% 26
+@article{DBLP:journals/corr/PinheiroC14,
+  author    = {Pedro H. O. Pinheiro and
+               Ronan Collobert},
+  title     = {Weakly Supervised Semantic Segmentation with Convolutional Networks},
+  journal   = {CoRR},
+  volume    = {abs/1411.6228},
+  year      = {2014},
+  archivePrefix = {arXiv},
+  eprint    = {1411.6228},
+  timestamp = {Wed, 07 Jun 2017 14:42:42 +0200},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@article {lattice,
+journal = {Computer Graphics Forum},
+title = {{Fast High-Dimensional Filtering Using the Permutohedral Lattice}},
+author = {Adams, Andrew and Baek, Jongmin and Davis, Myers Abraham},
+year = {2010},
+publisher = {The Eurographics Association and Blackwell Publishing Ltd},
+ISSN = {1467-8659},
+DOI = {10.1111/j.1467-8659.2009.01645.x}
+}
+@article{fully_crf,
+  author    = {Philipp Kr{\"{a}}henb{\"{u}}hl and
+               Vladlen Koltun},
+  title     = {Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials},
+  journal   = {CoRR},
+  volume    = {abs/1210.5644},
+  year      = {2012}
+}
+@article{bptt_1,
+  added-at = {2008-09-16T23:39:07.000+0200},
+  author = {Mozer, M. C.},
+  biburl = {https://www.bibsonomy.org/bibtex/2fb845d599cc9885415f1701f1dcda7d8/brian.mingus},
+  description = {CCNLab BibTeX},
+  interhash = {6bbff0ef70e1a01d55bf2dccd17ff51f},
+  intrahash = {fb845d599cc9885415f1701f1dcda7d8},
+  journal = {Complex Systems},
+  keywords = {CCP JRR,},
+  pages = {349-381},
+  timestamp = {2008-09-16T23:40:45.000+0200},
+  title = {A focused backpropagation algorithm for temporal pattern recognition},
+  volume = 3,
+  year = 1989
+}
+
+@incollection{alex_net_bib,
+title = {ImageNet Classification with Deep Convolutional Neural Networks},
+author = {Alex Krizhevsky and Sutskever, Ilya and Hinton, Geoffrey E},
+booktitle = {Advances in Neural Information Processing Systems 25},
+editor = {F. Pereira and C. J. C. Burges and L. Bottou and K. Q. Weinberger},
+pages = {1097--1105},
+year = {2012},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf}
+}
+
+
+@article{sliding_window,
+  author    = {Pierre Sermanet and
+               David Eigen and
+               Xiang Zhang and
+               Micha{\"{e}}l Mathieu and
+               Rob Fergus and
+               Yann LeCun},
+  title     = {OverFeat: Integrated Recognition, Localization and Detection using
+               Convolutional Networks},
+  journal   = {CoRR},
+  volume    = {abs/1312.6229},
+  year      = {2013}
+}
+
+
+@article{feat_norm,
+author = {Suarez-Alvarez, Maria and Pham, D and Prostov, Mikhail and I. Prostov, Yuriy},
+year = {2012},
+month = {09},
+pages = {2630-2651},
+title = {Statistical approach to normalization of feature vectors and clustering of mixed datasets},
+volume = {468},
+booktitle = {Royal Society of London Proceedings Series A}
+}
+@inproceedings{imagenet_bib,
+        AUTHOR = {Deng, J. and Dong, W. and Socher, R. and Li, L.-J. and Li, K. and Fei-Fei, L.},
+        TITLE = {{ImageNet: A Large-Scale Hierarchical Image Database}},
+        BOOKTITLE = {CVPR09},
+        YEAR = {2009},
+        BIBSOURCE = "http://www.image-net.org/papers/imagenet_cvpr09.bib"}
+
+@ARTICLE{lecun_net,
+author={Y. Lecun and L. Bottou and Y. Bengio and P. Haffner},
+journal={Proceedings of the IEEE},
+title={Gradient-based learning applied to document recognition},
+year={1998},
+volume={86},
+number={11},
+pages={2278-2324},
+keywords={backpropagation;convolution;multilayer perceptrons;optical character recognition;2D shape variability;GTN;back-propagation;cheque reading;complex decision surface synthesis;convolutional neural network character recognizers;document recognition;document recognition systems;field extraction;gradient based learning technique;gradient-based learning;graph transformer networks;handwritten character recognition;handwritten digit recognition task;high-dimensional patterns;language modeling;multilayer neural networks;multimodule systems;performance measure minimization;segmentation recognition;Character recognition;Feature extraction;Hidden Markov models;Machine learning;Multi-layer neural network;Neural networks;Optical character recognition software;Optical computing;Pattern recognition;Principal component analysis},
+doi={10.1109/5.726791},
+ISSN={0018-9219},
+month={Nov},}
+
+@article{median_freq,
+  author    = {Vijay Badrinarayanan and
+               Alex Kendall and
+               Roberto Cipolla},
+  title     = {SegNet: {A} Deep Convolutional Encoder-Decoder Architecture for Image
+               Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/1511.00561},
+  year      = {2015}
+}
+
+
+
+@incollection{bptt_2,
+ author = {Rumelhart, D. E. and Hinton, G. E. and Williams, R. J.},
+ chapter = {Learning Internal Representations by Error Propagation},
+ title = {Parallel Distributed Processing: Explorations in the Microstructure of Cognition, Vol. 1},
+ editor = {Rumelhart, David E. and McClelland, James L. and PDP Research Group, CORPORATE},
+ year = {1986},
+ isbn = {0-262-68053-X},
+ pages = {318--362},
+ numpages = {45},
+ url = {http://dl.acm.org/citation.cfm?id=104279.104293},
+ acmid = {104293},
+ publisher = {MIT Press},
+ address = {Cambridge, MA, USA},
+} 
+
+
+
+
+
+@article{crf_as_rnn,
+  author    = {Shuai Zheng and
+               Sadeep Jayasumana and
+               Bernardino Romera{-}Paredes and
+               Vibhav Vineet and
+               Zhizhong Su and
+               Dalong Du and
+               Chang Huang and
+               Philip H. S. Torr},
+  title     = {Conditional Random Fields as Recurrent Neural Networks},
+  journal   = {CoRR},
+  volume    = {abs/1502.03240},
+  year      = {2015}
+}
+
+
+
+

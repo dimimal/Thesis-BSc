@@ -1,0 +1,104 @@
+% Appendix Chapter
+\chapter*{Appendix A}
+
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[OC]{\leftmark}
+\fancyhead[C]{}
+%\fancyhead[EC]{\rightmark}
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\thepage}
+
+\textgreek{Οι αλγόριθμοι και τα μοντέλα που χρησιμοποιήθηκαν σε αυτή την διπλωματική βρίσκονται στο προφίλ του συγγραφέα στο }Github \textgreek{στον παρακάτω σύνδεσμο} \href{https://github.com/dimimal/semantics_segmentation_of_urban_environments}{link}. \textgreek{Σε αυτό το τμήμα θα δείξουμε το λογισμικό το οποίο υλοποιήθηκε στα πλαίσια της εργασίας για την εικονοποίηση των αποτελεσμάτων. Το λογισμικό υλοποιήθηκε με την χρήση των βιβλιοθηκών }pyQt4 \cite{pyqt_doc} \textgreek{και} OpenCV \cite{opencv_lib,opencv_man}, \textgreek{ενώ για την υλοποίηση των μοντέλων χρησιμοποιήθηκαν οι βιβλιοθήκες } Keras \cite{keras_bib}, Tensorflow \cite{tensorflow_bib} \textgreek{και} scikit-learn \cite{sklearn_bib}.
+\par
+
+\begin{table}[H]
+\label{table:class_colors}
+
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+ \cellcolor[HTML]{804080}\textgreek{Δρόμος} & \cellcolor[HTML]{F423E8}\textgreek{Πεζόδρομος} & \cellcolor[HTML]{464646}\textgreek{Κτίριο} & \cellcolor[HTML]{66669C}\textgreek{Τοίχος}& \cellcolor[HTML]{BE9999}\textgreek{Φράχτης}\\ \hline    
+
+\cellcolor[HTML]{999999}\textgreek{Ιστός} & \cellcolor[HTML]{FAAA1E}\textgreek{Φανάρι Κυκλοφορίας} & \cellcolor[HTML]{DCDC00}\textgreek{Πινακίδα Κυκλοφορίας} & \cellcolor[HTML]{6B8E23}\textgreek{Βλάστηση}& \cellcolor[HTML]{98FB98}\textgreek{Έδαφος}\\ 
+
+\cellcolor[HTML]{4682B4}\textgreek{Ουρανός} & \cellcolor[HTML]{DC143C}\textgreek{Άνθρωπος} & \cellcolor[HTML]{FF0000}\textgreek{Αναβάτης} & \cellcolor[HTML]{00008E}\textcolor{white}{\textgreek{Αυτοκίνητο}} & \cellcolor[HTML]{000046} \textcolor{white}{\textgreek{Φορτηγό}} \\
+
+\cellcolor[HTML]{003C64}\textgreek{Λεωφορείο} & \cellcolor[HTML]{005064}\textgreek{Τρένο} & \cellcolor[HTML]{0000E6}\textcolor{white}{\textgreek{Μοτοσυκλέτα}} & \cellcolor[HTML]{770B20}\textgreek{Ποδήλατο} & \cellcolor[HTML]{000000}\textcolor{white}{\textgreek{Κενό}} \\ \hline
+
+\end{tabular}
+\caption[Color Table]{\textgreek{Χρώματα των διαφορετικών αντικειμένων τα οποία φαίνονται στο παρακάτω λογισμικό. }}
+\end{table}
+
+
+
+
+
+\textgreek{Όπως βλέπουμε στις εικόνες} \ref{fig:viewer_1}, \ref{fig:viewer_2} \textgreek{κατά την εκτέλεση του  προγράμματος εμφανίζεται παράθυρο επιλογής μίας εικόνας για αναγνώριση και ακολουθεί δεύτερο παράθυρο αντίστοιχα για την επιλογή ενός αρχείου/εικόνας το οποίο περιέχει τις προβλέψεις που έχουν παραχθεί από το μοντέλο μας. }
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth, scale=0.3]{Images/viewer_1}
+\caption[\textgreek{Επιλογή Εικόνας}]{\textgreek{Επιλογή αρχικής εικόνας για αναγνώριση.}}
+ \label{fig:viewer_1}
+\end{figure}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth, scale=0.3]{Images/viewer_2}
+\caption[\textgreek{Επιλογή Αρχείου}]{\textgreek{Επιλογή αρχείου/εικόνας αποτελεσμάτων}}
+ \label{fig:viewer_2}
+\end{figure}
+
+\textgreek{Η εικόνα με τις προβλέψεις ζωγραφίζεται πάνω από την εικόνα εισόδου, όπου κάθε κατηγορία αντικειμένων έχει ένα χρώμα που την αντιπροσωπεύει} [\ref{fig:viewer_3}, \ref{fig:viewer_4}]. \textgreek{Ο δείκτης ανάλογα με την θέση του δείχνει με άσπρα γράμματα την κατηγορία που ανηκεί το εικονοστοιχείο. Επίσης, έχουμε δώσει την εξής λειτουργία, την ρυθμιζόμενη διαφάνεια του στρώματος με τις προβλέψεις.}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth, scale=0.3]{Images/viewer_3}
+\caption[\textgreek{Προβολή ετικέτας}]{\textgreek{Προβολή εικόνας και πρόβλεψης του μοντέλου} .}
+ \label{fig:viewer_3}
+\end{figure}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth, scale=0.3]{Images/viewer_4}
+\caption[\textgreek{Παράδειγμα διαφάνειας}]{\textgreek{Παράδειγμα απεικόνισης ετικέτας σε επιλεγμένο βαθμό διαφάνειας.}}
+ \label{fig:viewer_4}
+\end{figure}
+
+\textgreek{Τέλος, υπάρχει η δυνατότητα της μεγέθυνσης συγκεκριμένης επιφάνειας της εικόνας στατικού μεγέθους ανάλογα με την θέση που βρίσκεται ο δείκτης από το ποντίκι, δείχνοντας την ετικέτα του κεντρικού εικονοστοιχείου (εικόνα }\ref{fig:viewer_5}).
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth, scale=0.3]{Images/viewer_5}
+\caption[\textgreek{Παράδειγμα λογισμικού}]{\textgreek{Λειτουργία μεγέθυνσης επιφάνειας.}}
+ \label{fig:viewer_5}
+\end{figure}
+
+\chapter*{Appendix B}
+\label{ch:appendix_b}
+\textgreek{Θα δείξουμε με ένα παράδειγμα την διαδικασία της συνέλιξης ως μια πράξη πίνακα, παίρνοντας σαν παράδειγμα την συνέλιξη της εικόνας }\ref{fig:conv_ex}. \textgreek{Αν ξετυλίξουμε την είσοδο και την έξοδο σε ένα διάνυσμα από αριστερά προς τα δεξιά και από πάνω προς τα κάτω, η συνέλιξη μπορεί να αναπαρασταθεί ως έναν αραιό πίνακα }\textbf{C} (\ref{eqn:cmatrix}), \textgreek{όπου τα μη-μηδενικά στοιχεία είναι τα στοιχεία $w_{i,j}$ του πυρήνα, όπου $i$ και $j$ είναι είναι η γραμμή και η στήλη αντίστοιχα.}
+
+
+
+\begin{equation}
+ \begin{pmatrix}
+ 
+w_{0,0} & w_{0,1} & w_{0,2} & 0 & w_{1,0} & w_{1,1} & w_{1,2} & 0 & w_{2,0} & w_{2,1} & w_{2,2} & 0 & 0 & 0 & 0 & 0 \\
+
+0 & w_{0,0} & w_{0,1} & w_{0,2} & 0 & w_{1,0} & w_{1,1} & w_{1,2} & 0 & w_{2,0} & w_{2,1} & w_{2,2} & 0 & 0 & 0 & 0 \\
+
+0 & 0 & 0 & 0 w_{0,0} & w_{0,1} & w_{0,2} & 0 & w_{1,0} & w_{1,1} & w_{1,2} & 0 & w_{2,0} & w_{2,1} & w_{2,2} & 0 & 0 \\
+
+0 & 0 & 0 & 0 & 0 & w_{0,0} & w_{0,1} & w_{0,2} & 0 & w_{1,0} & w_{1,1} & w_{1,2} & 0 & w_{2,0} & w_{2,1} & w_{2,2} 
+ 
+ \end{pmatrix}
+ \label{eqn:cmatrix}
+\end{equation}
+
+\textgreek{Αυτή η γραμμική πράξη δέχεται σαν είσοδο έναν πίνακα ο οποίος έχει μετασχηματιστεί σε διάνυσμα 16-Διαστάσεων και παράγει έναν 4 διαστάσεων διάνυσμα το οποίο αργότερα μετασχηματίζεται σε έναν $2\times2$ πίνακα εξόδου. Χρησιμοποιώντας αυτήν την αναπαράσταση, η διαδικασία της οπισθοδρόμησης επιτυγχάνεται εύκολα αναστρέφοντας τον πίνακα $\mathbf{C}$. Με άλλα λόγια, η διαφορά του σφάλματος διαδίδεται προς τα πίσω πολλαπλασιάζοντας το με τον πίνακα $\mathbf{C}^{T}$. Αυτή η πράξη παίρνει σαν είσοδο ένα διάνυσμα τεσσάρων διαστάσεων και παράγει ένα διάνυσμα 16 διαστάσεων, ενώ η διασύνδεση τον νευρώνων παραμένει συμβατή με τον πίνακα $\mathbf{C}$. Προφανώς, ο πυρήνας $w$ παραμένει ίδιος και για εξ' ορισμού και για τους δυό πίνακες $\mathbf{C}$ και $\mathbf{C}^{T}$. }
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth, scale=0.4]{Images/conv_ex}
+ \caption[\textgreek{Παράδειγμα Συνέλιξης}]{\textgreek{Συνέλιξη ενός πυρήνα μεγέθους $3\times 3$ πάνω από μία είσοδο ενός χάρτη χαρακτηριστικών μεγέθους $4\times 4$ χωρίς γέμισμα μηδενικών περιφερειακά της εισόδου και με μοναδιαίο βήμα ολίσθησης.}}
+ \label{fig:conv_ex}
+\end{figure}

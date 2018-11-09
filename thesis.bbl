@@ -1,0 +1,363 @@
+\begin{thebibliography}{52}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abadi et~al.(2015)Abadi, Agarwal, Barham, Brevdo, Chen, Citro,
+  Corrado, Davis, Dean, Devin, Ghemawat, Goodfellow, Harp, Irving, Isard, Jia,
+  Jozefowicz, Kaiser, Kudlur, Levenberg, Man\'{e}, Monga, Moore, Murray, Olah,
+  Schuster, Shlens, Steiner, Sutskever, Talwar, Tucker, Vanhoucke, Vasudevan,
+  Vi\'{e}gas, Vinyals, Warden, Wattenberg, Wicke, Yu, and
+  Zheng]{tensorflow_bib}
+M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
+  A.~Davis, J.~Dean, M.~Devin, S.~Ghemawat, I.~Goodfellow, A.~Harp, G.~Irving,
+  M.~Isard, Y.~Jia, R.~Jozefowicz, L.~Kaiser, M.~Kudlur, J.~Levenberg,
+  D.~Man\'{e}, R.~Monga, S.~Moore, D.~Murray, C.~Olah, M.~Schuster, J.~Shlens,
+  B.~Steiner, I.~Sutskever, K.~Talwar, P.~Tucker, V.~Vanhoucke, V.~Vasudevan,
+  F.~Vi\'{e}gas, O.~Vinyals, P.~Warden, M.~Wattenberg, M.~Wicke, Y.~Yu, and
+  X.~Zheng.
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems,
+  2015.
+\newblock Software available from tensorflow.org.
+
+\bibitem[Adams et~al.(2010)Adams, Baek, and Davis]{lattice}
+A.~Adams, J.~Baek, and M.~A. Davis.
+\newblock {Fast High-Dimensional Filtering Using the Permutohedral Lattice}.
+\newblock \emph{Computer Graphics Forum}, 2010.
+\newblock ISSN 1467-8659.
+\newblock \doi{10.1111/j.1467-8659.2009.01645.x}.
+
+\bibitem[Anonymous(2007)]{wiki:median}
+Anonymous.
+\newblock Median filter. wikipedia, 2007.
+\newblock URL \url{https://en.wikipedia.org/wiki/Median_filter}.
+\newblock Accessed 22-May-2018.
+
+\bibitem[Badrinarayanan et~al.(2015)Badrinarayanan, Kendall, and
+  Cipolla]{median_freq}
+V.~Badrinarayanan, A.~Kendall, and R.~Cipolla.
+\newblock Segnet: {A} deep convolutional encoder-decoder architecture for image
+  segmentation.
+\newblock \emph{CoRR}, abs/1511.00561, 2015.
+
+\bibitem[Brodeur et~al.(2017)Brodeur, Perez, Anand, Golemo, Celotti, Strub,
+  Rouat, Larochelle, and Courville]{Home3d}
+S.~Brodeur, E.~Perez, A.~Anand, F.~Golemo, L.~Celotti, F.~Strub, J.~Rouat,
+  H.~Larochelle, and A.~C. Courville.
+\newblock Home: a household multimodal environment.
+\newblock \emph{CoRR}, abs/1711.11017, 2017.
+\newblock URL \url{http://arxiv.org/abs/1711.11017}.
+
+\bibitem[Buitinck et~al.(2013)Buitinck, Louppe, Blondel, Pedregosa, Mueller,
+  Grisel, Niculae, Prettenhofer, Gramfort, Grobler, Layton, VanderPlas, Joly,
+  Holt, and Varoquaux]{sklearn_bib}
+L.~Buitinck, G.~Louppe, M.~Blondel, F.~Pedregosa, A.~Mueller, O.~Grisel,
+  V.~Niculae, P.~Prettenhofer, A.~Gramfort, J.~Grobler, R.~Layton,
+  J.~VanderPlas, A.~Joly, B.~Holt, and G.~Varoquaux.
+\newblock {API} design for machine learning software: experiences from the
+  scikit-learn project.
+\newblock \emph{CoRR}, abs/1309.0238, 2013.
+
+\bibitem[Che et~al.(2017)Che, Cheng, Zhai, Sun, and Liu]{medical_pred}
+Z.~Che, Y.~Cheng, S.~Zhai, Z.~Sun, and Y.~Liu.
+\newblock Boosting deep learning risk prediction with generative adversarial
+  networks for electronic health records.
+\newblock \emph{CoRR}, abs/1709.01648, 2017.
+
+\bibitem[Chen et~al.(2016)Chen, Papandreou, Kokkinos, Murphy, and
+  Yuille]{deeplab_1}
+L.~Chen, G.~Papandreou, I.~Kokkinos, K.~Murphy, and A.~L. Yuille.
+\newblock Deeplab: Semantic image segmentation with deep convolutional nets,
+  atrous convolution, and fully connected crfs.
+\newblock \emph{CoRR}, abs/1606.00915, 2016.
+
+\bibitem[Chen et~al.(2017)Chen, Papandreou, Schroff, and Adam]{deeplab_2}
+L.~Chen, G.~Papandreou, F.~Schroff, and H.~Adam.
+\newblock Rethinking atrous convolution for semantic image segmentation.
+\newblock \emph{CoRR}, abs/1706.05587, 2017.
+
+\bibitem[Chollet et~al.(2015)]{keras_bib}
+F.~Chollet et~al.
+\newblock Keras, 2015.
+
+\bibitem[Cordts et~al.(2016)Cordts, Omran, Ramos, Rehfeld, Enzweiler, Benenson,
+  Franke, Roth, and Schiele]{Cityscapes}
+M.~Cordts, M.~Omran, S.~Ramos, T.~Rehfeld, M.~Enzweiler, R.~Benenson,
+  U.~Franke, S.~Roth, and B.~Schiele.
+\newblock The cityscapes dataset for semantic urban scene understanding.
+\newblock \emph{CoRR}, abs/1604.01685, 2016.
+
+\bibitem[Deng et~al.(2009)Deng, Dong, Socher, Li, Li, and
+  Fei-Fei]{imagenet_bib}
+J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei.
+\newblock {ImageNet: A Large-Scale Hierarchical Image Database}.
+\newblock In \emph{CVPR09}, 2009.
+
+\bibitem[Duda et~al.(2001)Duda, Hart, and Stork]{brain_neuron}
+R.~O. Duda, P.~E. Hart, and D.~G. Stork.
+\newblock \emph{Pattern Classification (2nd Ed)}.
+\newblock Wiley, 2001.
+
+\bibitem[Dumoulin and Visin(2016)]{conv_arithmetic}
+V.~Dumoulin and F.~Visin.
+\newblock A guide to convolution arithmetic for deep learning.
+\newblock \emph{CoRR}, abs/1603.07285, 2016.
+\newblock URL
+  \url{http://dblp.uni-trier.de/db/journals/corr/corr1603.html#DumoulinV16}.
+
+\bibitem[Graves(2012)]{act_funcs}
+A.~Graves.
+\newblock \emph{Supervised Sequence Labelling with Recurrent Neural Networks},
+  volume 385 of \emph{Studies in Computational Intelligence}.
+\newblock Springer, 2012.
+\newblock ISBN 978-3-642-24796-5.
+\newblock \doi{10.1007/978-3-642-24797-2}.
+\newblock URL \url{https://doi.org/10.1007/978-3-642-24797-2}.
+
+\bibitem[Hubel and Wiesel(2005)]{brain}
+M.~Hubel and T.~N. Wiesel.
+\newblock \emph{Brain and Visual Perception}.
+\newblock Oxford Univeristy Press, 2005.
+
+\bibitem[Ioffe and Szegedy(2015)]{batch_norm}
+S.~Ioffe and C.~Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock In \emph{{ICML}}, volume~37 of \emph{{JMLR} Workshop and Conference
+  Proceedings}, pages 448--456. JMLR.org, 2015.
+
+\bibitem[Its(2014)]{opencv_man}
+\emph{The OpenCV Reference Manual}.
+\newblock Itseez, 2.4.9.0 edition, April 2014.
+
+\bibitem[Itseez(2015)]{opencv_lib}
+Itseez.
+\newblock Open source computer vision library.
+\newblock \url{https://github.com/itseez/opencv}, 2015.
+
+\bibitem[Jadhav et~al.(2016)Jadhav, Chatur, and Wagh]{7538344}
+P.~A. Jadhav, P.~N. Chatur, and K.~P. Wagh.
+\newblock Integrating performance of web search engine with machine learning
+  approach.
+\newblock In \emph{2016 2nd International Conference on Advances in Electrical,
+  Electronics, Information, Communication and Bio-Informatics (AEEICB)}, pages
+  519--524, Feb 2016.
+\newblock \doi{10.1109/AEEICB.2016.7538344}.
+
+\bibitem[Jin et~al.(2016)Jin, Li, Xiao, Shen, Lin, Yang, Chen, Dong, Liu, Jie,
+  Feng, and Yan]{video_scene_parsing}
+X.~Jin, X.~Li, H.~Xiao, X.~Shen, Z.~Lin, J.~Yang, Y.~Chen, J.~Dong, L.~Liu,
+  Z.~Jie, J.~Feng, and S.~Yan.
+\newblock Video scene parsing with predictive feature learning.
+\newblock \emph{CoRR}, abs/1612.00119, 2016.
+
+\bibitem[Kingma and Ba(2014{\natexlab{a}})]{DBLP:journals/corr/KingmaB14}
+D.~P. Kingma and J.~Ba.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock \emph{CoRR}, abs/1412.6980, 2014{\natexlab{a}}.
+
+\bibitem[Kingma and Ba(2014{\natexlab{b}})]{adam}
+D.~P. Kingma and J.~Ba.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock \emph{CoRR}, abs/1412.6980, 2014{\natexlab{b}}.
+
+\bibitem[Klambauer et~al.(2017)Klambauer, Unterthiner, Mayr, and
+  Hochreiter]{self_norm}
+G.~Klambauer, T.~Unterthiner, A.~Mayr, and S.~Hochreiter.
+\newblock Self-normalizing neural networks.
+\newblock In \emph{{NIPS}}, pages 972--981, 2017.
+
+\bibitem[Kr{\"{a}}henb{\"{u}}hl and Koltun(2012)]{fully_crf}
+P.~Kr{\"{a}}henb{\"{u}}hl and V.~Koltun.
+\newblock Efficient inference in fully connected crfs with gaussian edge
+  potentials.
+\newblock \emph{CoRR}, abs/1210.5644, 2012.
+
+\bibitem[Krizhevsky et~al.(2012)Krizhevsky, Sutskever, and
+  Hinton]{alex_net_bib}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
+  editors, \emph{Advances in Neural Information Processing Systems 25}, pages
+  1097--1105. Curran Associates, Inc., 2012.
+\newblock URL
+  \url{http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf}.
+
+\bibitem[Lafferty(2001)]{partition_func}
+J.~Lafferty.
+\newblock Conditional random fields: Probabilistic models for segmenting and
+  labeling sequence data.
+\newblock pages 282--289. Morgan Kaufmann, 2001.
+
+\bibitem[LeCun et~al.(1989)LeCun, Boser, Denker, Henderson, Howard, Hubbard,
+  and Jackel]{pooling}
+Y.~LeCun, B.~Boser, J.~S. Denker, D.~Henderson, R.~E. Howard, W.~Hubbard, and
+  L.~D. Jackel.
+\newblock Backpropagation applied to handwritten zip code recognition.
+\newblock \emph{Neural Computation}, 1:\penalty0 541--551, 1989.
+
+\bibitem[Lecun et~al.(1998)Lecun, Bottou, Bengio, and Haffner]{lecun_net}
+Y.~Lecun, L.~Bottou, Y.~Bengio, and P.~Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
+  2278--2324, Nov 1998.
+\newblock ISSN 0018-9219.
+\newblock \doi{10.1109/5.726791}.
+
+\bibitem[Lin et~al.(2017)Lin, Milan, Shen, and Reid]{RefineNet}
+G.~Lin, A.~Milan, C.~Shen, and I.~Reid.
+\newblock Refinenet: Multi-path refinement networks for high-resolution
+  semantic segmentation.
+\newblock In \emph{2017 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 5168--5177, July 2017.
+\newblock \doi{10.1109/CVPR.2017.549}.
+
+\bibitem[Mozer(1989)]{bptt_1}
+M.~C. Mozer.
+\newblock A focused backpropagation algorithm for temporal pattern recognition.
+\newblock \emph{Complex Systems}, 3:\penalty0 349--381, 1989.
+
+\bibitem[Noh et~al.(2015)Noh, Hong, and Han]{deconv_net}
+H.~Noh, S.~Hong, and B.~Han.
+\newblock Learning deconvolution network for semantic segmentation.
+\newblock In \emph{Proceedings of the 2015 IEEE International Conference on
+  Computer Vision (ICCV)}, ICCV '15, pages 1520--1528, Washington, DC, USA,
+  2015. IEEE Computer Society.
+\newblock ISBN 978-1-4673-8391-2.
+\newblock \doi{10.1109/ICCV.2015.178}.
+
+\bibitem[PyQT(2012)]{pyqt_doc}
+PyQT.
+\newblock Pyqt reference guide.
+\newblock 2012.
+
+\bibitem[Redmon(2017)]{cnnprimer}
+J.~Redmon.
+\newblock cnn-primer.
+\newblock \url{https://github.com/pjreddie/cnn-primer/tree/master/1}, 2017.
+
+\bibitem[Redmon et~al.(2015)Redmon, Divvala, Girshick, and Farhadi]{yolo}
+J.~Redmon, S.~K. Divvala, R.~B. Girshick, and A.~Farhadi.
+\newblock You only look once: Unified, real-time object detection.
+\newblock \emph{CoRR}, abs/1506.02640, 2015.
+
+\bibitem[Ruder(2016)]{DBLP:journals/corr/Ruder16}
+S.~Ruder.
+\newblock An overview of gradient descent optimization algorithms.
+\newblock \emph{CoRR}, abs/1609.04747, 2016.
+
+\bibitem[Rumelhart et~al.(1986)Rumelhart, Hinton, and Williams]{bptt_2}
+D.~E. Rumelhart, G.~E. Hinton, and R.~J. Williams.
+\newblock Parallel distributed processing: Explorations in the microstructure
+  of cognition, vol. 1.
+\newblock chapter Learning Internal Representations by Error Propagation, pages
+  318--362. MIT Press, Cambridge, MA, USA, 1986.
+\newblock ISBN 0-262-68053-X.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=104279.104293}.
+
+\bibitem[Sadowski(2016)]{backprop_notes}
+P.~Sadowski.
+\newblock Notes on backpropagation, 2016.
+\newblock URL \url{https://www.ics.uci.edu/~pjsadows/notes.pdf}.
+
+\bibitem[Sermanet et~al.(2013)Sermanet, Eigen, Zhang, Mathieu, Fergus, and
+  LeCun]{sliding_window}
+P.~Sermanet, D.~Eigen, X.~Zhang, M.~Mathieu, R.~Fergus, and Y.~LeCun.
+\newblock Overfeat: Integrated recognition, localization and detection using
+  convolutional networks.
+\newblock \emph{CoRR}, abs/1312.6229, 2013.
+
+\bibitem[Shelhamer et~al.(2016)Shelhamer, Long, and Darrell]{fcnn_1}
+E.~Shelhamer, J.~Long, and T.~Darrell.
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock \emph{CoRR}, abs/1605.06211, 2016.
+
+\bibitem[Suarez-Alvarez et~al.(2012)Suarez-Alvarez, Pham, Prostov, and
+  I.~Prostov]{feat_norm}
+M.~Suarez-Alvarez, D.~Pham, M.~Prostov, and Y.~I.~Prostov.
+\newblock Statistical approach to normalization of feature vectors and
+  clustering of mixed datasets.
+\newblock 468:\penalty0 2630--2651, 09 2012.
+
+\bibitem[Szeliski(2011)]{szeliski2011computer}
+R.~Szeliski.
+\newblock Computer vision algorithms and applications, 2011.
+
+\bibitem[Tieleman and Hinton(2012{\natexlab{a}})]{coursera_nn}
+T.~Tieleman and G.~Hinton.
+\newblock {Lecture 6.1-Overview of mini-batch gradient descent}.
+\newblock COURSERA: Neural Networks for Machine Learning, 2012{\natexlab{a}}.
+
+\bibitem[Tieleman and Hinton(2012{\natexlab{b}})]{rmsProp}
+T.~Tieleman and G.~Hinton.
+\newblock Lecture 6.5-rmsprop: Divide the gradient by a running average of its
+  recent magnitude.
+\newblock \emph{COURSERA: Neural networks for machine learning}, 4\penalty0
+  (2):\penalty0 26--31, 2012{\natexlab{b}}.
+
+\bibitem[Valada et~al.(2017)Valada, Vertens, Dhall, and Burgard]{adapNet}
+A.~Valada, J.~Vertens, A.~Dhall, and W.~Burgard.
+\newblock Adapnet: Adaptive semantic segmentation in adverse environmental
+  conditions.
+\newblock In \emph{{ICRA}}, pages 4644--4651. {IEEE}, 2017.
+
+\bibitem[Wachinger et~al.(2017)Wachinger, Reuter, and Klein]{deepNAT}
+C.~Wachinger, M.~Reuter, and T.~Klein.
+\newblock Deepnat: Deep convolutional neural network for segmenting
+  neuroanatomy.
+\newblock \emph{CoRR}, abs/1702.08192, 2017.
+\newblock URL \url{http://arxiv.org/abs/1702.08192}.
+
+\bibitem[Wang et~al.(2017)Wang, Chen, Yuan, Liu, Huang, Hou, and
+  Cottrell]{duc_hdc}
+P.~Wang, P.~Chen, Y.~Yuan, D.~Liu, Z.~Huang, X.~Hou, and G.~W. Cottrell.
+\newblock Understanding convolution for semantic segmentation.
+\newblock \emph{CoRR}, abs/1702.08502, 2017.
+
+\bibitem[Wu et~al.(2016)Wu, Schuster, Chen, Le, Norouzi, Macherey, Krikun, Cao,
+  Gao, Macherey, Klingner, Shah, Johnson, Liu, Kaiser, Gouws, Kato, Kudo,
+  Kazawa, Stevens, Kurian, Patil, Wang, Young, Smith, Riesa, Rudnick, Vinyals,
+  Corrado, Hughes, and Dean]{machine_translation}
+Y.~Wu, M.~Schuster, Z.~Chen, Q.~V. Le, M.~Norouzi, W.~Macherey, M.~Krikun,
+  Y.~Cao, Q.~Gao, K.~Macherey, J.~Klingner, A.~Shah, M.~Johnson, X.~Liu,
+  L.~Kaiser, S.~Gouws, Y.~Kato, T.~Kudo, H.~Kazawa, K.~Stevens, G.~Kurian,
+  N.~Patil, W.~Wang, C.~Young, J.~Smith, J.~Riesa, A.~Rudnick, O.~Vinyals,
+  G.~Corrado, M.~Hughes, and J.~Dean.
+\newblock Google's neural machine translation system: Bridging the gap between
+  human and machine translation.
+\newblock \emph{CoRR}, abs/1609.08144, 2016.
+
+\bibitem[Zhang et~al.(2017)Zhang, Tang, Lin, Li, and
+  Yan]{DBLP:conf/ijcai/ZhangTLLY17}
+R.~Zhang, S.~Tang, M.~Lin, J.~Li, and S.~Yan.
+\newblock Global-residual and local-boundary refinement networks for rectifying
+  scene parsing predictions.
+\newblock In \emph{{IJCAI}}, pages 3427--3433. ijcai.org, 2017.
+
+\bibitem[Zhang(2004)]{sgd}
+T.~Zhang.
+\newblock Solving large scale linear prediction problems using stochastic
+  gradient descent algorithms.
+\newblock In \emph{Proceedings of the Twenty-first International Conference on
+  Machine Learning}, ICML '04, pages 116--, New York, NY, USA, 2004. ACM.
+\newblock ISBN 1-58113-838-5.
+\newblock \doi{10.1145/1015330.1015332}.
+\newblock URL \url{http://doi.acm.org/10.1145/1015330.1015332}.
+
+\bibitem[Zhao et~al.(2017)Zhao, Shi, Qi, Wang, and Jia]{pspnet}
+H.~Zhao, J.~Shi, X.~Qi, X.~Wang, and J.~Jia.
+\newblock Pyramid scene parsing network.
+\newblock In \emph{2017 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 6230--6239, July 2017.
+\newblock \doi{10.1109/CVPR.2017.660}.
+
+\bibitem[Zheng et~al.(2015)Zheng, Jayasumana, Romera{-}Paredes, Vineet, Su, Du,
+  Huang, and Torr]{crf_as_rnn}
+S.~Zheng, S.~Jayasumana, B.~Romera{-}Paredes, V.~Vineet, Z.~Su, D.~Du,
+  C.~Huang, and P.~H.~S. Torr.
+\newblock Conditional random fields as recurrent neural networks.
+\newblock \emph{CoRR}, abs/1502.03240, 2015.
+
+\end{thebibliography}

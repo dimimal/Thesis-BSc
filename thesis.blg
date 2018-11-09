@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: abbrvnat.bst
+Database file #1: thesis.bib
+Warning--entry type for "szeliski2011computer" isn't style-file defined
+--line 84 of file thesis.bib
+Warning--empty booktitle in partition_func
+Warning--empty journal in pyqt_doc
+Warning--empty booktitle in bptt_2
+Warning--empty journal in feat_norm
+You've used 52 entries,
+            2773 wiz_defined-function locations,
+            888 strings with 15175 characters,
+and the built_in function-call counts, 29898 in all, are:
+= -- 2517
+> -- 2430
+< -- 35
++ -- 820
+- -- 766
+* -- 2547
+:= -- 4702
+add.period$ -- 183
+call.type$ -- 52
+change.case$ -- 407
+chr.to.int$ -- 50
+cite$ -- 108
+duplicate$ -- 1168
+empty$ -- 1960
+format.name$ -- 834
+if$ -- 6207
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 46
+newline$ -- 287
+num.names$ -- 206
+pop$ -- 830
+preamble$ -- 1
+purify$ -- 358
+quote$ -- 0
+skip$ -- 1067
+stack$ -- 0
+substring$ -- 632
+swap$ -- 193
+text.length$ -- 15
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 557
+warning$ -- 4
+while$ -- 193
+width$ -- 0
+write$ -- 718
+(There were 5 warnings)
